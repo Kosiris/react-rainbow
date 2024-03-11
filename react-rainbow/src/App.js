@@ -15,6 +15,10 @@ function App(){
             <ColorBlock color={color} />
         )
     })
+    
+    const addColor = (newColor) => {
+      setColors ([...colors, newColor])
+    }
 
     return (
       <div className="App">
